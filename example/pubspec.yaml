@@ -2,12 +2,15 @@ name: just_audio_example
 description: Demonstrates how to use the just_audio plugin.
 publish_to: 'none'
 
+environment:
+  sdk: '>=2.10.0 <3.0.0'
+
 dependencies:
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^0.1.2
-  rxdart: ^0.23.1
+  cupertino_icons: ^1.0.2
+  rxdart: ^0.26.0
 
 dev_dependencies:
   flutter_test:
